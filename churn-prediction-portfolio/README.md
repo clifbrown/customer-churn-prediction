@@ -1,7 +1,5 @@
 # Customer Churn: Prediction and Retention Review
 
-**Clifton Brown Ommila · Data science portfolio**
-
 A reproducible churn case study that connects model evaluation to a practical question: **which customer profiles should a retention team review when capacity is limited?**
 
 The project includes a validated raw-data pipeline, model comparisons, a validation-selected review cutoff, an executed notebook, a local scoring dashboard, and auditable prediction files. It uses the supplied IBM Telco sample as an educational benchmark. It is not a deployed commercial system or evidence of prevented churn.
