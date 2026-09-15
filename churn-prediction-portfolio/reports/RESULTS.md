@@ -1,7 +1,5 @@
 # Churn case study: executed results and interpretation
 
-Author: Clifton Brown Ommila · Run: 2026-09-15T08:20:21.642052+00:00 · Python 3.12.14
-
 ## What was actually executed?
 
 The pipeline was fitted from the supplied CSV. Five candidates were evaluated with five-fold stratified training cross-validation, producing 25 validation scores. A separate five-fold logistic-regression ablation tested the engineered spending ratio. Every table here is generated from saved metrics and predictions. No original serialized model or original result image was reused.
