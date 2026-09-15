@@ -1,0 +1,4 @@
+-r requirements.txt
+ipython==9.17.1
+nbformat==5.11.1
+ipykernel==7.3.0
