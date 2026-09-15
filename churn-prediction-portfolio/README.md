@@ -116,9 +116,3 @@ See [data provenance](data/README.md) for the source, checksum, and scope. The o
 The strongest next step is better validation, not more algorithms: define a future churn horizon, verify feature timing, obtain later customer data, check calibration and subgroup errors, and run a controlled outreach pilot. No commercial ROI, causal retention effect, fairness certification, model monitoring service, or public deployment is claimed.
 
 The original SHAP analysis is replaced with directly regenerated **permutation importance**. It measures global predictive reliance, not per-customer causes. Correlated or mechanically related billing features require cautious interpretation.
-
-## Publishing to GitHub
-
-The included `.gitignore` excludes local environments, cached files, generated model binaries, and ad hoc scoring outputs. Commit the code, executed notebook, documentation, generated evaluation evidence, and figures. The ZIP includes a model for convenient local reproduction, but users can regenerate it with `python -m src.train` rather than store the binary in Git.
-
-The original author did not supply a project-code licence. Choose one before advertising reuse rights; the source dataset has separate attribution terms described in `data/README.md`.
